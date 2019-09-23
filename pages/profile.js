@@ -26,7 +26,7 @@ const Profile = ({ user }) => {
         <h1 style={{ color: 'black' }}>{user.displayName}</h1>
       </Grid>
       <Grid container justify="center" alignItems="center">
-        <Link href="/logout">
+        <Link href="/logout" prefetch>
           <Button>Logout</Button>
         </Link>
       </Grid>
